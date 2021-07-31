@@ -1,0 +1,13 @@
+[package]
+name = "ford-fulkerson"
+version = "0.1.0"
+authors = ["Swarit Pandey <43305013+sprectza@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+name = "graph_builder"
+path = "src/graph_api.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ansi_term = "0.12.1"
